@@ -1,0 +1,11 @@
+\begin{tikzpicture}[scale=.3, vertex/.style={draw,circle,fill,inner sep=1pt},]
+\node[vertex](T0) at (0,0) {};
+\node[vertex](T2) at (2,0) {};
+\node[vertex](T4) at (4,0) {};
+\node[vertex](T6) at (6,0) {};
+\draw (4,0) -- (6,0);
+\draw (0,0) -- (2,0);
+\draw (2,0) -- (4,0);
+\draw[color=white, opacity=0] (7,0) arc(0:180:3.5);
+\draw[color=white, opacity=0] (7,0) arc(0:-180:3.5);
+\end{tikzpicture}
